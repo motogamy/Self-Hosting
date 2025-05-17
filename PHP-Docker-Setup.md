@@ -3,7 +3,7 @@
 Create Docker file.
 **Choose the latest stable version of php-apache updated - December 13, 2024** 
 
-```docker
+```dockerfile
 FROM php:8.3.12-apache
 
 RUN cp /usr/local/etc/php/php.ini-development /usr/local/etc/php/php.ini
